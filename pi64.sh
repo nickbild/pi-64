@@ -25,22 +25,24 @@
 # mem_total_unit=$(cat /proc/meminfo | grep "MemTotal" | tr -s ' ' | cut -d" " -f3)
 # mem_free=$(cat /proc/meminfo | grep "MemFree" | tr -s ' ' | cut -d" " -f2)
 # mem_free_unit=$(cat /proc/meminfo | grep "MemFree" | tr -s ' ' | cut -d" " -f3)
-#
+# 
 # mem_total_unit=${mem_total_unit^^}
 # mem_free_unit=${mem_free_unit^^}
-#
+# 
 # center() {
 #   termwidth=224
 #   padding="$(printf '%0.1s' ' '{1..500})"
 #   printf '%*.*s %s %*.*s\n' 0 "$(((termwidth-2-${#1})/2))" "$padding" "$1" 0 "$(((termwidth-1-${#1})/2))" "$padding"
 # }
-
+# 
 # center "**** PI64 RASPBERRY PI OS ****"
+# echo ""
 # center "$mem_total $mem_total_unit RAM SYSTEM  $mem_free $mem_free_unit FREE"
+# echo ""
+# echo "READY."
+# echo ""
 #
 
 # Set up the active bash prompt with the proper offsets
 # for the border.
 ./tmux.sh
-
-# Draw the border.
