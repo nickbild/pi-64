@@ -11,12 +11,26 @@
 #
 # if [ "$TERM" = "linux" ]; then
 #     echo -en "\e]P0483AAA" # DARK BLUE 
+#     echo -en "\e]P1867ADE" # LIGHT BLUE
 #     echo -en "\e]P2867ADE" # LIGHT BLUE
+#     echo -en "\e]P3867ADE" # LIGHT BLUE
+#     echo -en "\e]P4867ADE" # LIGHT BLUE
+#     echo -en "\e]P5867ADE" # LIGHT BLUE
+#     echo -en "\e]P6867ADE" # LIGHT BLUE
+#     echo -en "\e]P7867ADE" # LIGHT BLUE
+#     echo -en "\e]P8867ADE" # LIGHT BLUE
+#     echo -en "\e]P9867ADE" # LIGHT BLUE
+#     echo -en "\e]PA867ADE" # LIGHT BLUE
+#     echo -en "\e]PB867ADE" # LIGHT BLUE
+#     echo -en "\e]PC867ADE" # LIGHT BLUE
+#     echo -en "\e]PD867ADE" # LIGHT BLUE
+#     echo -en "\e]PE867ADE" # LIGHT BLUE
+#     echo -en "\e]PF867ADE" # LIGHT BLUE
 #     clear
 # fi
 #
-# 'P0' - background color.
-# 'P2' - text color.
+# 'P0' - background color
+# 'Px' - text, etc. colors
 #
 #
 # 2) Also set login banner in ~/.bashrc, e.g.:
@@ -44,5 +58,5 @@
 #
 
 # Set up the active bash prompt with the proper offsets
-# for the border.
+# for drawing a border.
 ./tmux.sh
