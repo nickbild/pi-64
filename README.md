@@ -83,7 +83,7 @@ It isn't super easy to get a tty to do this sort of thing, so it took a hacky so
 --------------------
 ```
 
-Pane `p2` in the center is the active display area, so a bash prompt is started there, and it is set as the active pane.  All of the other panes run a [bash script](https://github.com/nickbild/pi-64/blob/main/display_border.sh) that hides the prompt and makes them look like a solid border, in C64 light blue.
+Pane `p2` in the center is the active display area, so a bash prompt is started there, and it is set as the active pane.  All of the other panes run a [bash script](https://github.com/nickbild/pi-64/blob/main/display_border.sh) that hides the prompt and makes them look like a solid border, in C64 light blue.  Borders between `tmux` panes are styled, and the status bar removed, to complete the effect.
 
 The end result is pretty fantastic, if I do say so myself.  It looks and feels like working on a C64, but with all the conveniences of a modern Linux distribution.
 
