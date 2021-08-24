@@ -1,6 +1,8 @@
 # Pi64
 
-![banner](https://raw.githubusercontent.com/nickbild/pi-64/main/media/banner.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/nickbild/pi-64/main/media/banner.png">
+</p>
 
 The Pi64 is a Raspberry Pi 400 that has been coerced into booting into a Commodore 64-like text mode.
 
