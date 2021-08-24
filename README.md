@@ -12,7 +12,7 @@ Inspired by the Commodore 64, the Pi64 boots into a C64-themed bash shell in tex
 
 ## How It Works
 
-The following assumes that you are running Raspberry Pi OS (although it's likely that many Linux distributions would work).  As a prerequisite, you'll need to install `tmux`, e.g.:
+The following assumes that you are running Raspberry Pi OS (although I expect that many Linux distributions would work).  As a prerequisite, you'll need to install `tmux`, e.g.:
 
 `sudo apt-get install tmux`
 
