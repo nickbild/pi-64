@@ -10,6 +10,8 @@ I *love* the retro vibes that the Raspberry Pi 400 gives off.  The all-in-one co
 
 Inspired by the Commodore 64, the Pi64 boots into a C64-themed bash shell in text mode.  No X Server is involved.  It is not a C64 emulator, it is Raspberry Pi OS, so you can get real work done; it just extends the Pi 400's retro feel to the screen.
 
+![pi400](https://raw.githubusercontent.com/nickbild/pi-64/main/media/pi400_thumb_sm.jpg)
+
 ## How It Works
 
 The following assumes that you are running Raspberry Pi OS (although I expect that many Linux distributions would work).  As a prerequisite, you'll need to install `tmux`, e.g.:
